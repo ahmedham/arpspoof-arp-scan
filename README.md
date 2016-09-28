@@ -21,6 +21,7 @@ Using :
 3 - hit enter to make the attack
 
 ex: sudo ./arpspoof.sh
+Please Enter The Gateway to scan the network : 192.168.xx.xx
 Interface: wlan0, datalink type: EN10MB (Ethernet)
 
 WARNING: host part of 192.168.1.1/24 is non-zero
