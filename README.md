@@ -54,4 +54,4 @@ Hint:
 
 1 - the gateway must be 192.168.1.1 ---> edit the shell script if not like this
 
-2 - Sorry My Englist is bad
+2 - Sorry My English is bad
